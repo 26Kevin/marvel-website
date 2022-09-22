@@ -10,10 +10,21 @@ body {
 }
 
 .img-logo {
-    width: 5000px;
+    width: 500px;
+    padding: 50px 0;
        }
 
 .img-spidey {
     width: 500px;
+    padding:50px 0;
+}
+
+.img-nowayhome {
+    width:500px;
+    padding:50px 0;
+}
+
+.img-ironman {
+    width:500px;
     padding:50px 0;
 }
