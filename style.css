@@ -1,5 +1,5 @@
 html {
-    background: url("img/2193203.jpg") no-repeat center fixed;
+    background: url("img/background.jpg") no-repeat center fixed;
     background-size:cover;
     color: white;
 }
@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-.img-logo {
+.img-mculogo {
     width: 500px;
     padding: 50px 0;
        }
@@ -27,4 +27,23 @@ body {
 .img-ironman {
     width:500px;
     padding:50px 0;
+}
+
+.img-drstrange {
+    width:500px;
+    padding:50px 0;
+}
+
+.img-multiverseofmadness {
+    width:500px;
+    padding:50px 0;
+}
+
+.img-endgame {
+    width:500px;
+    padding:50px 0;
+}
+
+.quiz {
+    text-align:center;
 }
