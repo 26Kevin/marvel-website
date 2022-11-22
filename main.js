@@ -2,12 +2,14 @@ let numCounterEl = document.getElementById("num-counter");
 let charOutputEl = document.getElementById("output");
 let numPercentEl = document.getElementById("num-percent");
 
-let numCounter = 0;
-let numPercent = 0;
+
 
 //Input
 document.getElementById("btn").addEventListener("click", btnClicked);
+
 function btnClicked() {
+  let numCounter = 0;
+let numPercent = 0;
   //Quesetion 1
   let answer1 = document.getElementById("q1").value.toLowerCase();
 
@@ -56,7 +58,8 @@ function btnClicked() {
     numPercent = numPercent;
   }
 
+  
   //Output
   document.getElementById("num-counter").innerHTML = numCounter;
-  document.getElementById("num-percent").innerHTMl = numPercent;
+  document.getElementById("num-percent").innerHTML = numPercent;
 }
