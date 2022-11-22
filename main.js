@@ -1,7 +1,10 @@
 let numCounterEl = document.getElementById("num-counter");
 let charOutputEl = document.getElementById("output");
+let numPercentEl = document.getElementById("num-percent");
 
 let numCounter = 0;
+let numPercent = 0;
+
 //Input
 document.getElementById("btn").addEventListener("click", btnClicked);
 function btnClicked() {
@@ -10,9 +13,11 @@ function btnClicked() {
 
   //If Statement
   if (answer1 === "peter parker") {
-    numCounter++
+    numCounter += 1;
+    numPercent += 25;
   } else {
-    let numCounterEl.innerHTML = "Your score:0/4 (0%)" 
+    numCounter = numCounter;
+    numPercent = numPercent;
   }
 
   //Question 2
@@ -20,9 +25,11 @@ function btnClicked() {
 
   //If Statement
   if (answer2 === "iron man") {
-    charOutputEl.innerHTML = numCounter++;
+    numCounter += 1;
+    numPercent += 25;
   } else {
-    charOutputEl.innerHTML = "Your score:0/4 (0%)";
+    numCounter = numCounter;
+    numPercent = numPercent;
   }
 
   //Question 3
@@ -30,9 +37,11 @@ function btnClicked() {
 
   // If Statement
   if (answer3 === "vibranium") {
-    charOutputEl.innerHTML = numCounter++;
+    numCounter += 1;
+    numPercent += 25;
   } else {
-    charOutputEl.innerHTML = "Your socre:0/4 (0%)";
+    numCounter = numCounter;
+    numPercent = numPercent;
   }
 
   //Question 4
@@ -40,8 +49,14 @@ function btnClicked() {
 
   //If Statement
   if (answer4 === "tony stark") {
-    charOutputEl.innerHTML = numCounter++;
+    numCounter += 1;
+    numPercent += 25;
   } else {
-    charOutputEl.innerHTML = "Your socre:0/4 (0%)";
+    numCounter = numCounter;
+    numPercent = numPercent;
   }
+
+  //Output
+  document.getElementById("num-counter").innerHTML = numCounter;
+  document.getElementById("num-percent").innerHTMl = numPercent;
 }
